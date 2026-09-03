@@ -1,3 +1,6 @@
+import random
+
+
 def insertion_sort(lst):
     result = []
     for item in lst:
@@ -11,3 +14,9 @@ def insertion_sort(lst):
         if not inserted:
             result.append(item)
     return result
+
+
+def generate_list(size):
+    lst = random.sample(range(1, 3001), size)
+    return lst
+

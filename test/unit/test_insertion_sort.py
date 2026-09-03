@@ -1,7 +1,6 @@
 import pytest
-
 from src.prestandatest.insertion_sort.insertion_sort import insertion_sort
-from src.prestandatest.merge_sort.merge_sort import merge_sort
+from src.prestandatest.insertion_sort.insertion_sort import generate_list
 
 
 @pytest.mark.unit
@@ -23,7 +22,8 @@ def test_insertion_sort():
     assert result_3 == sorted_3
 
 
+@pytest.mark.performance
+def test_insertion_sort__insertion_1(benchmark):
+    a = generate_list(2500)
 
-
-
-
+    benchmark(insertion_sort, a)
