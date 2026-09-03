@@ -6,17 +6,21 @@ from src.prestandatest.merge_sort.merge_sort import merge_sort
 
 @pytest.mark.unit
 def test_insertion_sort():
-    list1 = []
-    list2 = [10]
-    list3 = [10, 8, 6, 4, 2, 0]
+    list_1 = []
+    list_2 = [10]
+    list_3 = [10, 8, 6, 4, 2, 0]
 
-    insertion_sort(list1)
-    insertion_sort(list2)
-    insertion_sort(list3)
+    result_1 = insertion_sort(list_1)
+    result_2 = insertion_sort(list_2)
+    result_3 = insertion_sort(list_3)
 
-    assert list1 == []
-    assert list2 == [10]
-    assert list3 == [10, 8, 6, 4, 2, 0]
+    sorted_1 = []
+    sorted_2 = [10]
+    sorted_3 = [0, 2, 4, 6, 8, 10]
+
+    assert result_1 == sorted_1
+    assert result_2 == sorted_2
+    assert result_3 == sorted_3
 
 
 
