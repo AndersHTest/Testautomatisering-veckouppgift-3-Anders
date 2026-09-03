@@ -12,3 +12,4 @@
 | 2 Prestandatest: insertion sort | 80%    | 🟡     |
 | 3 Prestandatest: merge sort     | 0%     | 🟡     |
 
+test
