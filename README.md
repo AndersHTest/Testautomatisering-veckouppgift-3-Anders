@@ -10,7 +10,7 @@
 | 0 Projektstruktur               | 100%   | 🟢     |
 | 1 Diskutera tillsammans         | 100%   | 🟢     |
 | 2 Prestandatest: insertion sort | 100%   | 🟢     |
-| 3 Prestandatest: merge sort     | 0%     | 🟡     |
+| 3 Prestandatest: merge sort     | 100%   | 🟢     |
 
 <br>
 
