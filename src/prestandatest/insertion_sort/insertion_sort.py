@@ -25,8 +25,8 @@ def generate_list(size):
 def sort_comparison_chart():
     size = ("2500", "5000", "7500", "10000", "12500")
     function = {
-        'Insertion': (4.44, 9.58, 14.86, 20.92, 26.45 ),
-        'Merge': (101.61, 413.50, 937.14, 1651.38, 2576.65),
+        'Insertion sort': (4.44, 9.58, 14.86, 20.92, 26.45 ),
+        'Merge sort': (101.61, 413.50, 937.14, 1651.38, 2576.65),
     }
 
     fig, ax = plt.subplots(layout='constrained')

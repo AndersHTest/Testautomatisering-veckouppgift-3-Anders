@@ -15,6 +15,10 @@
 
 2.4: För att rita diagrammet. Kör prestandatest.main.
 
-3.1: Insertion sort O(1), Merge sort O(N)
+3.1: <br>
+Insertion sort O(N) (Linjär) <br>
+Merge sort O(N^2) (Kvadratisk)
+
+Visualisering:
 
 ![sort_comparison.png](sort_comparison.png)
