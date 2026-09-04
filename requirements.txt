@@ -2,6 +2,3 @@ pytest
 pytest-mock
 pytest-benchmark
 matplotlib
-numpy
-perfplot
-pygal
