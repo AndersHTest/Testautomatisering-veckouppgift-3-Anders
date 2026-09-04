@@ -16,8 +16,9 @@
 2.4: För att rita diagrammet. Kör prestandatest.main.
 
 3.1: <br>
-Insertion sort O(N) (Linjär) <br>
-Merge sort O(N^2) (Kvadratisk)
+Merge sort O(N^2) (Kvadratisk) - Dåligt för stora datamängder <br>
+Insertion sort O(N) (Linjär) - Bättre för stora datamängder
+
 
 Visualisering:
 
