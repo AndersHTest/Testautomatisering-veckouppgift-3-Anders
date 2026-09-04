@@ -35,9 +35,9 @@ def sort_comparison_chart():
     for container in res.bar_containers:
         ax.bar_label(container, padding=3)
 
-
     ax.set_ylabel('Time (ms)')
     ax.set_xlabel('Storlek lista')
     ax.legend(loc='upper left', frameon=False, ncols=2)
     ax.set_ylim(0,3000)
     plt.show()
+

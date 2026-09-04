@@ -22,7 +22,6 @@ def test_merge_sort():
     assert result_3 == sorted_3
 
 
-
 @pytest.mark.performance
 def test_merge_sort__merge_1(benchmark):
     a = generate_list(10000)
