@@ -17,6 +17,6 @@ def insertion_sort(lst):
 
 
 def generate_list(size):
-    lst = random.sample(range(1, 3001), size)
+    lst = random.sample(range(1, 12501), size)
     return lst
 
