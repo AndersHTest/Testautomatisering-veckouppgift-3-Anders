@@ -22,4 +22,4 @@ Insertion sort O(N) (Linjär) - Bättre för stora datamängder
 
 Visualisering:
 
-![sort_comparison.png](sort_comparison.png)
+![sort_comparison_.png](sort_comparison_.png)
