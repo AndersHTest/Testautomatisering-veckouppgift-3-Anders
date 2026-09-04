@@ -12,6 +12,7 @@
 | 2 Prestandatest: insertion sort | 100%   | 🟢     |
 | 3 Prestandatest: merge sort     | 0%     | 🟡     |
 
+<br>
 
 > **_1 Diskutera tillsammans:_**
 > 1. Vad är en regression? När inträffar de oftast under ett projekts livstid?
