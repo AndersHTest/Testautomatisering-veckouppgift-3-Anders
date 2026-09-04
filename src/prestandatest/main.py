@@ -1,0 +1,4 @@
+from insertion_sort.insertion_sort import sort_comparison_chart
+
+
+sort_comparison_chart()
